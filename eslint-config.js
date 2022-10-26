@@ -19,7 +19,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "import", "@typescript-eslint"],
   rules: {
     "no-console": 2,
     "no-underscore-dangle": 0,
