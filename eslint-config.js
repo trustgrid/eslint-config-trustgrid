@@ -7,6 +7,7 @@ module.exports = {
     "airbnb-base",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -16,5 +17,5 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["react", "import", "prettier", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint"],
 };
