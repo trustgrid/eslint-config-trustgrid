@@ -5,10 +5,12 @@ module.exports = {
   },
   extends: [
     "plugin:react/recommended",
-    "standard",
     "plugin:prettier/recommended",
+    "airbnb-base",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@trypescript-eslint/recommended",
   ],
-  parser: "@babel/eslint-parser",
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -16,5 +18,5 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["react"],
+  plugins: ["react", "import", "prettier", "@typescript-eslint"],
 };
